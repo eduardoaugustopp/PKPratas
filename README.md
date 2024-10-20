@@ -19,9 +19,9 @@
 
 <a href = "https://pk-pratas.vercel.app/">Acesse clicando aqui</a>
 
-https://github.com/user-attachments/assets/a26cc7c4-f8ae-4328-a125-fb7f539a97eb
+https://github.com/user-attachments/assets/2ca301b8-ff78-4286-a1a1-799aed9d9a97
 
-https://github.com/user-attachments/assets/3f6513b7-81c4-4367-aa67-2f24e745013f
+https://github.com/user-attachments/assets/9874ece0-505b-48b3-bd97-1fabf287d1a4
 
 ### Como rodar o projeto:
 
