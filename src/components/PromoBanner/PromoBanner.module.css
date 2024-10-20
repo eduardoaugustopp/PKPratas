@@ -1,0 +1,23 @@
+.promoBanner {
+    background-color: var(--branco);
+    padding: 30px;
+    text-align: center; 
+    border: 1px solid var(--preto); 
+    border-radius: 7px; 
+}
+
+.promoText {
+    color: var(--cinzaEscuro); 
+    font-size: 16px; 
+    margin: 0; 
+}
+
+@media (max-width: 480px) {
+    .promoBanner {
+        padding: 10px; 
+    }
+
+    .promoText {
+        font-size: 14px; 
+    }
+}

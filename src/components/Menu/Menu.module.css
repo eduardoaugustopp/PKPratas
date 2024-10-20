@@ -1,0 +1,98 @@
+.nav {
+  background-color: var(--cinza);
+  padding: 1rem;
+  position: relative;
+}
+
+.mobileMenu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.line {
+  width: 30px;
+  height: 3px;
+  background-color: var(--azulEscuro);
+  margin: 5px;
+  transition: transform 0.3s ease;
+}
+
+.open {
+  background-color: var(--azul);
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.navList li {
+  margin: 0 0.5rem;
+}
+
+.navList a {
+  color: var(--cinzaEscuro);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s;
+}
+
+.navList a:hover {
+  color: #ddd;
+}
+
+@media (max-width: 768px) {
+  .mobileMenu {
+    display: flex;
+  }
+
+  .navList {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: var(--cinza);
+    padding: 1rem 0;
+    transition: max-height 0.5s ease;
+    overflow: hidden;
+    max-height: 0;
+  }
+
+  .navList.show {
+    display: flex;
+    max-height: 300px;
+  }
+}
+
+@media (min-width: 769px) {
+  .mobileMenu {
+    display: none;
+  }
+
+  .nav {
+    background-color: transparent;
+  }
+
+  .navList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .navList {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .navList li {
+    margin: 0 1rem;
+  }
+}

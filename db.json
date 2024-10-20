@@ -1,0 +1,28 @@
+{
+  "videos": [
+    {
+      "id": 1,
+      "titulo": "Dedeira",
+      "capa": "https://img.youtube.com/vi/tgKXmXt4JGs/maxresdefault.jpg",
+      "link": "https://www.youtube.com/shorts/tgKXmXt4JGs"
+    },
+    {
+      "id": 2,
+      "titulo": "Corrente Grume 5mm 70cm",
+      "capa": "https://img.youtube.com/vi/-byJDWoQ_Dw/maxresdefault.jpg",
+      "link": "https://www.youtube.com/shorts/-byJDWoQ_Dw"
+    },
+    {
+      "id": 3,
+      "titulo": "Corrente Grume 2mm 70cm",
+      "capa": "https://img.youtube.com/vi/Q7uNbebA7Kc/maxresdefault.jpg",
+      "link": "https://www.youtube.com/shorts/Q7uNbebA7Kc"
+    },
+    {
+      "id": 4,
+      "titulo": "Limpeza de Peça",
+      "capa": "https://img.youtube.com/vi/mESzRWJKoN8/maxresdefault.jpg",
+      "link": "https://www.youtube.com/shorts/mESzRWJKoN8"
+    }
+  ]
+}

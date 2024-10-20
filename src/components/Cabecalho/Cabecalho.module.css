@@ -1,0 +1,140 @@
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.1em 15em;
+  background-color: var(--preto);
+}
+
+.cabecalho img {
+  max-height: 200px;
+  margin-right: 150px;
+}
+
+.cabecalho input {
+  border: 1px solid var(--branco);
+  border-radius: 20px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+  background-color: var(--cinza);
+  color: var(--preto);
+  width: 300px;
+  height: 45px;
+  max-height: 200px;
+  margin-right: 150px;
+  padding-left: 20px;
+}
+
+.cabecalho input::placeholder {
+  background: url("lupa.svg") no-repeat left center;
+  background-size: 15px;
+  padding-left: 55px;
+  font-size: 14px;
+  color: #000000;
+}
+.cabecalho nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.cabecalho nav img {
+  max-height: 50px;
+  cursor: pointer;
+  margin-right: 10px;
+  display: block;
+}
+
+.cabecalho nav p {
+  margin: 0;
+  padding: 0;
+  line-height: 2;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 1366px) {
+  .cabecalho input::placeholder {
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 980px) {
+  .cabecalho {
+    padding: 1em 10%;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .cabecalho img {
+    max-height: 140px;
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+
+  .cabecalho input {
+    width: 100%;
+    max-width: 200px;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding-left: 1px;
+  }
+
+  .cabecalho input::placeholder {
+    padding-left: 20px;
+  }
+
+  .cabecalho nav {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .cabecalho nav img {
+    max-height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cabecalho {
+    padding: 1.1em 5%;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cabecalho img {
+    margin: 0;
+  }
+
+  .cabecalho input {
+    padding-left: 7px;
+  }
+  .cabecalho input::placeholder {
+    background-size: 12px;
+    padding-left: 16px;
+  }
+
+  .cabecalho nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .nav-item {
+    margin-bottom: 10px;
+  }
+
+  .cabecalho nav img {
+    max-height: 40px;
+    margin-right: 5px;
+  }
+
+  .cabecalho nav p {
+    font-size: 14px;
+  }
+}
